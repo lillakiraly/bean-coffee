@@ -71,7 +71,7 @@ img {
     width: 100%;
     height: auto;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(44,7.8vh);
+    grid-template-rows: repeat(46,7.8vh);
     grid-gap: 10px;
 }
 h1 {
@@ -162,7 +162,7 @@ button {
 }
 /* Menu Page */
 .menu-img {
-    grid-row: 13 / span 8;
+    grid-row: 14 / span 8;
     grid-column: 1 / span 7;
 }
 #menu {
@@ -189,14 +189,19 @@ button {
 .secret-menu {
     color:  #71f0fa;
 }
+.menu-coffee-beans {
+    grid-row: 17 / span 3;
+    grid-column: 11 / span 2;
+    z-index: -1;
+}
 /*Our Mission Page */
 .our-mission-img {
-    grid-row: 22 / span 10;
+    grid-row: 24 / span 10;
     grid-column: 3 / span 8;
 
 }
 .our-mission-side {
-    grid-row: 23 / span 1;
+    grid-row: 25 / span 1;
     grid-column: 2 / span 2;
     color: #71f0fa;
     font-family: 'Big Shoulders Stencil Text', cursive;
@@ -205,7 +210,7 @@ button {
     text-shadow: 0 1px 10px  black;
 }
 .our-mission-p {
-    grid-row: 26 / span 5;
+    grid-row: 28 / span 5;
     grid-column: 3 / span 3;
     width: 60%;
     color: #eee2c0;
@@ -217,7 +222,7 @@ button {
 
 }
 .our-mission-h {
-    grid-row: 30 / span 2;
+    grid-row: 32 / span 2;
     grid-column: 8 / span 3;
     color:  #e09f4c;
     font-family: 'Big Shoulders Stencil Text', cursive;
@@ -227,7 +232,7 @@ button {
 }
 /*Contact Page */
 .address {
-    grid-row: 33 / span 1;
+    grid-row: 36 / span 1;
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
@@ -235,7 +240,7 @@ button {
     text-align: center;
 }
 .address-p {
-    grid-row: 34 / span 1;
+    grid-row: 37 / span 1;
     grid-column: 1 / span 5;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -245,7 +250,7 @@ button {
     letter-spacing: 0.1rem;
 }
 .opening-hours {
-    grid-row: 35 / span 2;
+    grid-row: 38 / span 2;
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
@@ -254,7 +259,7 @@ button {
     align-self: center;
 }
 .opening-hours-p {
-    grid-row: 37 / span 1;
+    grid-row: 40 / span 1;
     grid-column: 1 / span 5;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -267,7 +272,7 @@ button {
     color: #71f0fa;
 }
 .contact {
-    grid-row: 38 / span 2;
+    grid-row: 41 / span 2;
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
@@ -276,7 +281,7 @@ button {
     align-self: center;
 }
 .contact-p {
-    grid-row: 39 / span 2;
+    grid-row: 42 / span 2;
     grid-column: 1 / span 5;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -288,7 +293,7 @@ button {
 }
 
 .contact-img {
-    grid-row: 33 / span 8;
+    grid-row: 36 / span 8;
     grid-column: 6 / span 7;
 }
 /*Footer */
