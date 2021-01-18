@@ -200,15 +200,6 @@ button {
     grid-column: 3 / span 8;
 
 }
-.our-mission-side {
-    grid-row: 25 / span 1;
-    grid-column: 2 / span 2;
-    color: #71f0fa;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-    justify-self: center;
-    font-size: 1.5rem;
-    text-shadow: 0 1px 10px  black;
-}
 .our-mission-p {
     grid-row: 28 / span 5;
     grid-column: 3 / span 3;
