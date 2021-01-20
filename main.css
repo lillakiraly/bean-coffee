@@ -42,7 +42,7 @@ li {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 a {
     text-decoration: none;
@@ -71,7 +71,7 @@ img {
     width: 100%;
     height: auto;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(46,7.8vh);
+    grid-template-rows: repeat(46,58px);
     grid-gap: 10px;
 }
 h1 {
@@ -81,7 +81,7 @@ h1 {
     font-family: 'Big Shoulders Stencil Text', cursive;
     justify-self: center;
     align-self: center;
-    font-size: 5.7rem;
+    font-size: 91.2px;
 }
 .n05 {
     color: #e09f4c;
@@ -97,7 +97,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color:#eee2c0;
     text-align: center;
-    line-height: 1.8rem;
+    font-size: 16px;
+    line-height: 1.8em;
 }
 button {
     grid-row: 7 / span 2;
@@ -110,8 +111,8 @@ button {
     height: 50px;
     justify-self: center;
     align-self: center;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
+    font-size: 16px;
+    letter-spacing: 0.1em;
 
     
 }
@@ -120,10 +121,10 @@ button {
     grid-column: 4 / span 1;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #eee2c0;
-    font-size: 3rem;
+    font-size: 48px;
     justify-self: center;
     align-self: end;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.3em;
 }
 .instore {
     grid-row: 10 / span 1;
@@ -131,7 +132,7 @@ button {
     justify-self: center;
     color: #370c00;
     font-family: 'Big Shoulders Stencil Text', cursive;
-    font-size: 1.5rem;
+    font-size: 24px;
     align-self: start;
 }
 .espresso-d {
@@ -139,10 +140,10 @@ button {
     grid-column: 7 / span 3;
     color: #71f0fa;
     font-family: 'Big Shoulders Stencil Text', cursive;
-  
     text-align: center;
-    letter-spacing: 0.2rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
     justify-self: center;
     align-self: end;
 }
@@ -154,8 +155,8 @@ button {
     align-self: end;
     justify-self: end;
     text-align: center;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
+    font-size: 32px;
+    letter-spacing: 0.05em;
 }
 .espresso-d2-span {
     color:  #e09f4c;
@@ -170,7 +171,7 @@ button {
     grid-column: 8 / span 5;
     color: #eee2c0;
     font-family: 'Big Shoulders Stencil Text', cursive;
-    font-size: 3.5rem;
+    font-size: 56px;
     text-align: center;
     align-self: start;
     letter-spacing: 0.3rem;
@@ -181,9 +182,9 @@ button {
     color: #eee2c0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 17.6px;
     align-self: center;
-    line-height: 2rem;
+    line-height: 2em;
     letter-spacing: 0.1rem;
 }
 .secret-menu {
@@ -207,7 +208,8 @@ button {
     color: #eee2c0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.8rem;
+    font-size: 16px;
+    line-height: 1.8em;
     justify-self: center;
     align-self: end;
 
@@ -218,7 +220,7 @@ button {
     color:  #e09f4c;
     font-family: 'Big Shoulders Stencil Text', cursive;
     justify-self: center;
-    font-size: 3.5rem;
+    font-size: 56px;
     align-self: center;
 }
 /*Contact Page */
@@ -227,7 +229,7 @@ button {
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
-    font-size: 3.5rem;
+    font-size: 56px;
     text-align: center;
 }
 .address-p {
@@ -237,7 +239,7 @@ button {
     text-align: center;
     color: #eee2c0;
     align-self: end;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     letter-spacing: 0.1rem;
 }
 .opening-hours {
@@ -245,7 +247,7 @@ button {
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
-    font-size: 3.5rem;
+    font-size: 56px;
     text-align: center;
     align-self: center;
 }
@@ -255,9 +257,9 @@ button {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #eee2c0;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     letter-spacing: 0.1rem;
-    line-height: 2rem;
+    line-height: 2em;
 }
 .hours {
     color: #71f0fa;
@@ -267,7 +269,7 @@ button {
     grid-column: 2 / span 3;
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #370c00;
-    font-size: 3.5rem;
+    font-size: 56px;
     text-align: center;
     align-self: center;
 }
@@ -277,10 +279,10 @@ button {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #eee2c0;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     letter-spacing: 0.1rem;
     align-self: end;
-    line-height: 2rem;
+    line-height: 2em;
 }
 
 .contact-img {
@@ -292,9 +294,596 @@ footer {
     background-color:  #e09f4c;
     color:  #370c00;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     font-weight: 700;
-    height: 10vh;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1375px) {
+    /*.espresso-d2 {
+        display: none;
+    }*/
+    .our-mission-h {
+        grid-row: 31 / span 2;
+    }
+    .our-mission-p {
+        grid-row: 27 / span 5;
+        grid-column: 3 / span 3;
+    }
+}
+@media only screen and (max-width: 768px) {
+    ul {
+        width: 100%;
+        border-radius: 0px;
+        justify-content: space-evenly;
+    }
+    li {
+        font-size: 18px;
+    }
+    .logo {
+        display: none;
+    }
+    .container {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(66,58px);
+    }
+    
+    h1, .home-p, button, .price, .instore,
+    .espresso-d, .espresso-d2, .home-img,
+    .menu-img, #menu, .menu-p, .secret-menu,
+    .menu-coffee-beans, .our-mission-img,
+    .our-mission-p, .our-mission-h, .address,
+    .address-p, .opening-hours, .opening-hours-p,
+    .hours, .contact, .contact-p, .contact-img
+    {
+        grid-column: 1 / 7;
+    }
+    /*Home Page */
+
+    h1 {
+        grid-row: 3 / span 2;
+    }
+    .home-p {
+        grid-row: 5 / span 3;
+        grid-column: 2 / span 4;
+    }
+    button {
+        grid-row: 8 / span 1;
+    }
+    .price {
+        grid-row: 9 / span 1;
+    }
+    .instore {
+        grid-row: 10 / span 1;
+    }
+    .home-img {
+        grid-row: 11 / span 12;
+        grid-column: 2 / 6;
+    }
+    .espresso-d {
+        grid-row: 10 / span 2;
+        grid-column: 2 / span 3;
+        justify-self: start;
+    }
+    .espresso-d2 {
+        grid-row: 21 / span 1;
+        grid-column: 3 / span 3;
+    }
+    /*Menu Page */
+    #menu {
+        grid-row: 24 / span 2;
+    }
+    .menu-p {
+        grid-row: 26 / span 2;
+    }
+    .menu-coffee-beans {
+        grid-row: 23 / span 3;
+        grid-column: 5 / span 2;
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-img {
+        grid-row: 29 / span 8;
+    }
+
+    .our-mission-img{
+        grid-row: 38 / span 8;
+    }
+    .our-mission-p {
+        grid-row: 40 / span 5;
+        grid-column: 1 / span 3;
+        justify-self: left;
+    }
+    .our-mission-h {
+        grid-row: 44 / span 2;
+        grid-column: 4 / span 3;
+        justify-self: right;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 47 / span 8;
+    }
+    .address {
+        grid-row: 55 / span 1;
+     }
+    .address-p {
+        grid-row: 56 / span 1;
+    }
+     .opening-hours {
+         grid-row: 58 / span 1;
+     }
+    .opening-hours-p {
+        grid-row: 59 / span 2;
+        align-self: end;
+    }
+    .contact {
+        grid-row: 62 / span 1;
+    }
+     .contact-p {
+        grid-row: 64 / span 1;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        grid-template-rows: repeat(62,58px);
+    }
+    /*Home Page */
+    .espresso-d2 {
+        grid-row: 19 / span 1;
+    } 
+    /*Menu Page */   
+    #menu {
+        grid-row: 22 / span 2;
+    }
+    .menu-p {
+        grid-row: 24 / span 2;
+    }
+
+    .menu-img {
+        grid-row: 28 / span 7;
+    }
+    /*Our Mission Page */
+
+    .our-mission-img{
+        grid-row: 36 / span 7;
+    }
+    .our-mission-p {
+        grid-row: 36 / span 5;
+        font-size: 12px;
+    }
+    .our-mission-h {
+        grid-row: 41 / span 2;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 44 / span 8;
+    }
+    .address {
+        grid-row: 52 / span 1;
+     }
+    .address-p {
+        grid-row: 53 / span 1;
+    }
+     .opening-hours {
+         grid-row: 55 / span 1;
+     }
+    .opening-hours-p {
+        grid-row: 56 / span 2;
+    }
+    .contact {
+        grid-row: 59 / span 1;
+    }
+     .contact-p {
+        grid-row: 61 / span 1;
+    }
+    /*Footer */
+    footer {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .container {
+        grid-template-rows: repeat(58,58px);
+    }
+    /*Home Page */
+    .espresso-d2 {
+        grid-row: 18 / span 1;
+        font-size: 25px;
+    }
+    /*Menu Page */   
+    #menu {
+        grid-row: 21 / span 2;
+    }
+    .menu-p {
+        grid-row: 23 / span 2;
+    }
+
+    .menu-img {
+        grid-row: 27 / span 7;
+    }
+    /*Our Mission Page */
+    
+    .our-mission-img{
+        grid-row: 34 / span 7;
+    }
+    .our-mission-p {
+        grid-row: 34 / span 5;
+        font-size: 12px;
+     }
+    .our-mission-h {
+        grid-row: 38 / span 2;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 41 / span 8;
+    }
+    .address {
+        grid-row: 48 / span 1;
+     }
+    .address-p {
+        grid-row: 49 / span 1;
+    }
+    .opening-hours {
+        grid-row: 51 / span 1;
+     }
+    .opening-hours-p {
+        grid-row: 52 / span 2;
+    }
+    .contact {
+        grid-row: 55 / span 1;
+    }
+    .contact-p {
+        grid-row: 57 / span 1;
+    }   
+}
+@media only screen and (max-width: 530px) {
+    .container {
+        grid-template-rows: repeat(51,58px);
+    }
+    /*Home Page */
+    h1 {
+        font-size: 70px;
+    }
+    .home-p {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 38px;
+    }
+    .instore {
+        font-size: 20px;
+    }
+    .espresso-d {
+        font-size: 12px;
+    }
+    .espresso-d2 {
+        grid-row: 17 / span 1;
+        font-size: 20px;
+    }
+    /*Menu Page */   
+    #menu {
+        grid-row: 20 / span 2;
+        font-size: 40px;
+    }
+    .menu-p {
+        grid-row: 21 / span 2;
+        font-size: 14px;
+    }
+    .menu-coffee-beans {
+        grid-row: 19 / span 3;
+    }
+
+    .menu-img {
+        grid-row: 23 / span 7;
+    }
+    /*Our Mission Page */
+    
+    .our-mission-img{
+        grid-row: 29 / span 7;
+    }
+    .our-mission-p {
+        grid-row: 32 / span 5;
+        grid-column: 1 / 7;
+        font-size: 14px;
+        justify-self: center;
+     }
+    .our-mission-h {
+        grid-row: 32 / span 2;
+        font-size: 40px;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 38 / span 8;
+    }
+    .address {
+        grid-row: 44 / span 1;
+        font-size: 45px;
+     }
+    .address-p {
+        grid-row: 45 / span 1;
+        font-size: 14px;
+        align-self: start;
+    }
+    .opening-hours {
+        grid-row: 46 / span 1;
+        font-size: 45px;
+     }
+    .opening-hours-p {
+        grid-row: 47 / span 1;
+        font-size: 14px;
+    }
+    .contact {
+        grid-row: 48 / span 1;
+        font-size: 45px;
+        align-self: end;
+    }
+    .contact-p {
+        grid-row: 49 / span 1;
+        font-size: 14px;
+    } 
+    /*Footer*/
+    footer {
+        font-size: 12px;
+        height: 60px;
+    }      
+}
+@media only screen and (max-width: 450px) {
+    .container {
+        grid-template-rows: repeat(49,58px);
+    }
+    li {
+        font-size: 15px;
+    }
+    /*Home Page */
+    h1 {
+        font-size: 60px;
+    }
+    .home-p {
+        font-size: 13px;
+    }
+    .home-img {
+        grid-column: 1 / 7;
+    }
+    .espresso-d {
+        grid-column: 1 / span 3;
+        font-size: 10px;
+    }
+    .espresso-d2 {
+        grid-row: 19 / span 1;
+        grid-column: 1 / 7;
+        font-size: 16px;
+    }
+    /*Menu Page */   
+    #menu {
+        grid-row: 21 / span 2;
+        font-size: 30px;
+    }
+    .menu-p {
+        grid-row: 22 / span 2;
+        font-size: 12px;
+    }
+    .menu-coffee-beans {
+        grid-row: 21 / span 3;
+    }
+
+    .menu-img {
+        grid-row: 24 / span 7;
+    }
+    /*Our Mission Page */
+    
+    .our-mission-h {
+        grid-row: 32 / span 2;
+        font-size: 28px;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 38 / span 8;
+    }
+    .address {
+        grid-row: 43 / span 1;
+        font-size: 35px;
+     }
+    .address-p {
+        grid-row: 44 / span 1;
+        font-size: 12px;
+        align-self: start;
+    }
+    .opening-hours {
+        grid-row: 45 / span 1;
+        font-size: 35px;
+     }
+    .opening-hours-p {
+        grid-row: 46 / span 1;
+        font-size: 12px;
+    }
+    .contact {
+        grid-row: 47 / span 1;
+        font-size: 35px;
+        align-self: end;
+    }
+    .contact-p {
+        grid-row: 48 / span 1;
+        font-size: 12px;
+    } 
+    /*Footer */
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    ul {
+        height: 55px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .container {
+        grid-template-rows: repeat(47,58px);
+    }
+    /* Home Page */
+    h1 {
+        font-size: 55px;
+    }
+    .home-p {
+        font-size: 12px;
+    }
+    button {
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .instore {
+        font-size: 18px;
+    }
+    .espresso-d2 {
+        grid-row: 17 / span 1;
+    }
+    /*Our Mission */
+    .our-mission-p {
+        font-size: 12px;
+        grid-row: 35 / span 1;
+    }
+    .our-mission-h {
+        grid-row: 32 / span 1;
+        font-size: 25px;
+    }
+    /* Contact Page */
+    .contact-img {
+        grid-row: 37 / span 5;
+    }
+    .address {
+        grid-row: 41 / span 1;
+        font-size: 30px;
+    }
+    .address-p {
+        grid-row: 42 / span 1;
+        font-size: 10px;
+    }
+    .opening-hours {
+        grid-row: 43 / span 1;
+        font-size: 30px;
+    }
+    .opening-hours-p {
+        grid-row: 44 / span 1;
+        font-size: 10px;
+    }
+    .contact {
+        grid-row: 45 / span 1;
+        font-size: 30px;
+    }
+    .contact-p {
+        grid-row: 46 / span 1;
+        font-size: 10px;
+    }
+    /*Footer */
+    footer {
+        font-size: 8px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .container {
+        grid-template-rows: repeat(40,58px);
+    }
+    /*Home Page */
+    h1 {
+        font-size: 40px;
+        grid-row: 3 / span 1;
+    }
+    .home-p {
+        grid-row: 4 / span 3;
+    }
+    button {
+        grid-row: 7 / span 1;
+    }
+    .price {
+        grid-row: 8 / span 1;
+    }
+    .instore {
+        grid-row: 9 / span 1;
+    }
+    .espresso-d2 {
+        grid-row: 16 / span 1;
+    }
+    /*Menu Page */
+    #menu {
+        grid-row: 19 / span 1;
+        font-size: 23px;
+    }
+    .menu-coffee-beans {
+        grid-row: 18 / span 2;
+    }
+    .menu-p {
+        grid-row: 20 / span 1;
+    }
+    .menu-img {
+        grid-row: 21 / span 4;
+    }
+    /*Our Mission Page */
+    .our-mission-img {
+        grid-row: 25 / span 4;
+    }
+    .our-mission-h {
+        grid-row: 27 / span 1;
+        font-size: 20px;
+    }
+    .our-mission-p {
+        grid-row: 28 / span 3;
+        font-size: 11px;
+        align-self: center;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 31 / span 4;
+    }
+    .address {
+        grid-row: 34 / span 1;
+        margin-top:10px;
+        font-size: 25px;
+        align-self: end;
+    }
+    .address-p {
+        grid-row: 35 / span 1;
+        align-self: center;
+    }
+    .opening-hours {
+        grid-row: 36 / span 1;
+        font-size: 25px;
+    }
+    .opening-hours-p {
+        grid-row: 37 / span 1;
+        align-self: start;
+    }
+    .contact {
+        grid-row: 38 / span 1;
+        font-size: 25px;
+    }
+    .contact-p {
+        grid-row: 39 / span 1;
+    }
+}
+ 
+/*
+
+
+footer {
+    background-color:  #e09f4c;
+    color:  #370c00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19.2px;
+    font-weight: 700;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
