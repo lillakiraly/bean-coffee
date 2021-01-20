@@ -873,3 +873,370 @@ footer {
         grid-row: 39 / span 1;
     }
 }
+
+/*Desktop Media Queries*/
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+    .container {
+        grid-template-rows: repeat(40,58px);
+    }
+    li {
+        font-size: 17px;
+    }
+    /*Home Page */
+    h1 {
+        font-size: 70px;
+    }
+    .home-p {
+        font-size: 14px;
+    }
+    .espresso-d2 {
+        display: none;
+    }
+    /*Menu Page */
+    .menu-img {
+        grid-row: 12 / span 7;
+    }
+    #menu {
+        font-size: 27px;
+        grid-row: 13 / span 2;
+    }
+    .menu-coffee-beans {
+        grid-row: 12 / span 4;
+        max-width: 100%;
+    }
+    .menu-p {
+        font-size: 16px;
+        grid-row: 14 / span 3;
+    }
+    /* Our Mission Page */
+    .our-mission-img {
+        grid-row: 19 / span 7;
+    }
+    .our-mission-p {
+        grid-row: 21 / span 3;
+        justify-self: left;
+        font-size: 12px;
+    }
+    .our-mission-h {
+        grid-row: 24 / span 2;
+        font-size: 30px;
+    }
+    /*Contact Page */
+    .address {
+        grid-row: 28 / span 2;
+        font-size: 40px;
+    }
+    .address-p {
+        grid-row: 28 / span 2;
+    }
+    .opening-hours {
+        grid-row: 30 / span 2;
+        font-size: 40px;
+    }
+    .opening-hours-p {
+        grid-row: 32 / span 2;
+    }
+    .contact {
+        grid-row: 34 / span 2;
+        font-size: 40px;
+    }
+    .contact-p {
+        grid-row: 35 / span 2;
+    }
+    .contact-img {
+        grid-row: 31 / span 7;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    .bean-coffee-logo {
+        margin: 27px 20px;
+     }
+    ul {
+        height: 110px;
+        width: 55%;
+    }
+    li {
+        font-size: 40px;
+    }
+    .container {
+        grid-template-rows: repeat(70,58px);
+    }
+    /*Home Page */
+    h1 {
+        font-size: 148px;
+    }
+    .home-p {
+        font-size: 35px;
+        grid-row: 6 / span 3;
+    }
+    button {
+        grid-row: 14 / span 2;
+        width: 500px;
+        height: 90px;
+        font-size: 35px;
+    }
+    .price {
+        grid-row: 17 / span 2;
+        font-size: 90px;
+    }
+    .instore {
+        grid-row: 19 / span 1;
+        font-size: 50px;
+        z-index: 5;
+    }
+    .espresso-d {
+        font-size: 25px;
+    }
+    .espresso-d2 {
+        font-size: 40px;
+    }
+    /*Menu Page */
+    .menu-img {
+        grid-row: 23 / span 8;
+    }
+    #menu {
+        font-size: 85px;
+        grid-row: 27 / span 3;
+    }
+    .menu-p {
+        grid-row: 31 / span 2;
+        font-size: 33px;
+    }
+    .menu-coffee-beans {
+        grid-row: 27 / span 7;
+    }
+    /*Our Mission Page */
+    .our-mission-img {
+        grid-row: 38 / span 8;
+    }
+    .our-mission-p {
+        grid-row: 45 / span 5;
+        font-size: 30px;
+    }
+    .our-mission-h {
+        grid-row: 48 / span 2;
+        font-size: 89px;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 55 / span 8;
+    }
+    .address {
+        grid-row: 55 / span 2;
+        font-size: 100px;
+    }
+    .address-p {
+        grid-row: 57 / span 1;
+        font-size: 35px;
+    }
+    .opening-hours {
+        grid-row: 59 / span 2;
+        font-size: 100px;
+    }
+    .opening-hours-p {
+        grid-row: 61 / span 3;
+        font-size: 35px;
+    }
+    .contact {
+        grid-row: 64 / span 2;
+        font-size: 100px;
+    }
+    .contact-p {
+        grid-row: 66 / span 2;
+        font-size: 35px;
+    }
+    /*Footer*/
+    footer {
+        height: 140px;
+        font-size: 35px;
+    }
+
+
+}
+@media only screen and (min-width: 2560px) {
+
+    li {
+        font-size: 55px;
+    }
+    .container {
+        grid-template-rows: repeat(106,58px);
+    }
+    /*Home Page */
+    h1 {
+        font-size: 206px;
+        grid-row: 4 / span 5;
+    }
+    .home-p {
+        font-size: 50px;
+        grid-row: 10 / span 9;
+    }
+    button {
+        grid-row: 21 / span 3;
+        width: 750px;
+        height: 130px;
+        font-size: 50px;
+    }
+    .price {
+        grid-row: 26 / span 2;
+        font-size: 120px;
+    }
+    .instore {
+        grid-row: 29 / span 2;
+        font-size: 80px;
+        z-index: 5;
+    }
+    .espresso-d {
+        font-size: 40px;
+        grid-row: 12 / span 5;
+    }
+    .espresso-d2 {
+        font-size: 70px;
+        grid-row: 21 / span 4;
+    }
+    /*Menu Page */
+    .menu-img {
+        grid-row: 35 / span 8;
+    }
+    #menu {
+        font-size: 130px;
+        grid-row: 39 / span 4;
+    }
+    .menu-p {
+        grid-row: 46 / span 2;
+        font-size: 54px;
+    }
+    .menu-coffee-beans {
+        grid-row: 41 / span 7;
+    }
+    /*Our Mission Page */
+    .our-mission-img {
+        grid-row: 58 / span 8;
+    }
+    .our-mission-p {
+        grid-row: 70 / span 5;
+        font-size: 40px;
+    }
+    .our-mission-h {
+        grid-row: 73 / span 2;
+        font-size: 129px;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 82 / span 8;
+    }
+    .address {
+        grid-row: 80 / span 2;
+        font-size: 151px;
+    }
+    .address-p {
+        grid-row: 83 / span 1;
+        font-size: 50px;
+    }
+    .opening-hours {
+        grid-row: 87 / span 2;
+        font-size: 151px;
+    }
+    .opening-hours-p {
+        grid-row: 90 / span 3;
+        font-size: 50px;
+    }
+    .contact {
+        grid-row: 95 / span 2;
+        font-size: 151px;
+    }
+    .contact-p {
+        grid-row: 99 / span 2;
+        font-size: 50px;
+    }
+    /*Footer*/
+    footer {
+        font-size: 43px;
+    }
+} 
+/* 4k display */
+@media only screen and (min-width: 3840px) {
+    .container {
+        grid-template-rows: repeat(135,58px);
+    }
+    /*Home Page */
+    h1 {
+        font-size: 260px;
+     
+    }
+    .home-p {
+        font-size: 65px;
+        grid-row: 10 / span 9;
+    }
+    button {
+        grid-row: 22 / span 3;
+        width: 1150px;
+        height: 150px;
+        font-size: 60px;
+    }
+
+    .espresso-d {
+        font-size: 50px;
+        grid-row: 14 / span 5;
+    }
+    .espresso-d2 {
+        font-size: 80px;
+        grid-row: 24 / span 4;
+    }
+    /*Menu Page */
+    #menu {
+        font-size: 170px;
+    }
+    .menu-p {
+        grid-row: 47 / span 2;
+        font-size: 64px;
+    }
+    .menu-coffee-beans {
+        grid-row: 43 / span 7;
+    }
+    /*Our Mission Page */
+    .our-mission-img {
+        grid-row: 64 / span 8;
+    }
+    .our-mission-p {
+        grid-row: 83 / span 5;
+        font-size: 55px;
+    }
+    .our-mission-h {
+        grid-row: 86 / span 2;
+        font-size: 190px;
+    }
+    /*Contact Page */
+    .contact-img {
+        grid-row: 103 / span 8;
+    }
+    .address {
+        grid-row: 98 / span 2;
+        font-size: 194px;
+    }
+    .address-p {
+        grid-row: 103 / span 1;
+        font-size: 70px;
+    }
+    .opening-hours {
+        grid-row: 109 / span 2;
+        font-size: 194px;
+    }
+    .opening-hours-p {
+        grid-row: 112 / span 3;
+        font-size: 70px;
+    }
+    .contact {
+        grid-row: 120 / span 2;
+        font-size: 194px;
+    }
+    .contact-p {
+        grid-row: 125 / span 2;
+        font-size: 70px;
+    }
+    /*Footer*/
+    footer {
+        font-size: 65px;
+        height: 200px;
+    }
+}   
