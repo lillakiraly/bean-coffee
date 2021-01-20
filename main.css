@@ -873,18 +873,3 @@ footer {
         grid-row: 39 / span 1;
     }
 }
- 
-/*
-
-
-footer {
-    background-color:  #e09f4c;
-    color:  #370c00;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19.2px;
-    font-weight: 700;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
