@@ -113,7 +113,7 @@ button {
     align-self: center;
     font-size: 16px;
     letter-spacing: 0.1em;
-
+    cursor: not-allowed;
     
 }
 .price {
@@ -871,6 +871,18 @@ footer {
     }
     .contact-p {
         grid-row: 39 / span 1;
+    }
+}
+@media only screen and (max-width: 286px) {
+    /*Home Page */
+    button {
+        grid-row: 8 / span 1;
+    }
+    .price {
+        grid-row: 9 /span 1;
+    }
+    .instore {
+        grid-row: 10 / span 1;
     }
 }
 
